@@ -1,0 +1,476 @@
+@import url("fonts/Montserrat/fonts/webfonts/Montserrat.css");
+@font-face {
+    font-family: Quite_Chocolatey;
+	src: url(fonts/Quite_Chocolatey/Quite_Chocolatey.woff)
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background: url(images/body/background.png) no-repeat 50% 0 ;
+	width: 1200px;
+	height: 2700px;
+	background-color: white;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.Wrapper {
+  min-height: 100%;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -183px;
+}
+
+
+/* HEADER START */
+
+header{
+	background: url(images/header/bg-layer2.png) no-repeat  , url(images/header/bg-layer.png) no-repeat 50% 0;
+	margin: 0 auto;
+	width: 1200px;
+	height: 688px;
+}
+/*LOGO*/
+header h1{
+	padding: 38px 0 0 84px;
+	float: left;
+}
+/*NAVIGATION MENU START*/
+header nav {
+	float: right;
+	clear: right;
+	padding-right: 108px;
+}
+
+header nav ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding-top: 60px;
+}
+
+header nav ul li{
+    display: inline;
+	height: 15px;
+	width: 130px;
+	font-size: 15px;
+	font-family: Montserrat;
+	text-transform: uppercase;	
+}
+
+header nav ul li a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #130e27;
+    border-radius: 4px;
+}
+
+.HomeButton a{
+	background-color: #130e27;
+    border-radius: 4px;	
+}
+/*NAVIGATION MENU END*/
+/*FORM START*/
+#Form{
+	width: 400px;
+	height: 506px;
+	box-shadow: 1px 5px 32px 6px #808080;
+	background-color: #ffffff;
+	float: right;
+	clear: right;
+	border-radius: 4px;
+	margin-right: 104px;
+	margin-top: 167px;}
+#Request{
+	width: 240px;
+	height: 19px;
+	color: #130e27;
+	font-family: Montserrat;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: -0.44px;
+	padding: 33px 106px 0 86px;
+	margin-bottom: 37px;
+}
+
+form input{
+	width: 353px;
+	height: 57px;
+	background-color: #eeeeee;
+	border-radius: 4px;
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	border-width: 19px;
+	border-color: transparent;
+}
+form input::placeholder{
+	margin-left: 10px;
+}
+
+#FormCheckbox{
+	width: 19px;
+	height: 18px;
+	background-color: #eeeeee;
+	margin-left: 27px;
+	margin-right: 23px;
+}
+
+#FormSubmit{
+	width: 353px;
+	height: 60px;
+	background-color: #c62314;
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: -0.44px;
+
+}
+/*FORM END*/
+/*ANNOUNCEMENT START*/
+#Announcement{
+	width: 550px;
+	height: 268px;
+	padding-top: 264px;
+	padding-left: 104px;
+}
+
+#AnnouncementUp{
+	width: 600px;
+	height: 146px;
+	color: #130e27;
+	font-family: Arial;
+	font-size: 90px;
+	font-weight: 700;
+	line-height: 80px;
+	text-transform: uppercase;
+	padding-bottom: 47px;
+}
+#Announcement1p{
+	letter-spacing: -1.8px;
+}
+
+#Announcement2p{
+	color: white;
+	letter-spacing: -1.8px;
+}
+
+#AnnouncementText{
+	font-family: PT Serif;
+	color: white;
+	font-size: 20px;
+	letter-spacing: -0.4px;
+	font-weight: 400px;
+	line-height: 28px;
+}
+/*ANNOUNCEMENT END*/
+/*HEADER END */
+/*BODY START*/
+/*SERVICE START*/
+#Services{
+	width: 1200px;
+	height: 482px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.SerLogTxt{
+	width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+	font-family: Couture;
+	font-size: 50px;
+	margin: 45px 0px 0px 100px;
+	text-transform: uppercase;
+}
+#SerImg{
+	width: 1200px;
+	height: 156px;
+	margin-left: 104px;
+	margin-top: 96px;
+}
+#SerImgText{
+	width: 1200px;
+	height: 43px;
+    float:left;
+    clear:left;
+    margin-left: 101px;
+    margin-top: 45px;
+}
+#SerImgText p{
+	display: inline-block;
+	width: 170px;
+	height: 43px;
+	text-align: center;
+}
+/*SERVICE END*/
+/*PRICING START*/
+#Pricing{
+	width: 1200px;
+	height: 656px;
+    margin-left:auto;
+    margin-right:auto;
+	font-family: "PT Serif";
+	background-color: #efefef;
+}
+#OurStory{
+    background-color: #130e27;
+    width: 1200px;
+	height: 119px;
+	color: white;
+}
+#OurStory p{
+	width: 670px;
+	height: 56px;
+	padding: 28px 0px 0px 104px;
+	font-family: "PT Serif";
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: -0.4px;
+	display: inline-block;
+}
+#OurStory button{
+	width: 269px;
+	height: 64px;
+	background-color: #c62314;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-family: Montserrat;
+	font-size: 22px;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: -0.44px;
+	clear: left;
+	float: right;
+	margin: 31px 105px 0px 0px; 
+	border-color: #c62314;
+	border-width: 0;
+}
+#PricingPlanes{
+	float: left;
+	text-align: center;
+	margin-left: 100px;
+	width: 318px;
+	height: 391px;
+	margin-top: 59px;
+	font-family: "PT Serif";
+	font-size: 20px;
+	background-color: white;
+}
+#PricingTitle{
+	margin-top: 65px; 
+	text-align: center;
+	color: #130e27;
+	font-family: Montserrat;
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+#Prices{	
+	color: #c62314;
+	font-family: Montserrat;
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -1.2px;
+	margin-top: 22px;
+	padding-bottom: 0px;
+	height: 60px;
+}
+#Pricing button{
+	width: 205px;
+	height: 49px;
+	background-color: #130e27;
+	border-width: 0px;
+	text-transform: uppercase;
+	color: white;	
+	font-family: Montserrat;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: -0.44px;
+}
+#PricingPlanes img{
+	position: relative;
+	padding-right: 250px;
+}
+#TopSaleText{
+	position: relative;
+	left: -37px;
+	top: -60px;/*
+	left: 755px;
+	top: 1540px;*/
+	text-align: start;
+	transform: rotate(-45deg);
+}
+/*PRICING END*/
+/*TESTIMONIAL START*/
+#Testimonial{
+	width: 1200px;
+	height: 691px;
+    margin-left:auto;
+    margin-right:auto;	
+}
+#TestimonialHeader span{
+	position: relative;
+	top: 104px;
+	color: #130e27;
+	font-family: Montserrat;
+	font-size: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+#FirstMan{
+	position: relative;
+	width: 439px;
+	height: 142px;
+	top: 147px;
+	left: 107px;
+}
+#FirstMan1{
+	position: relative;
+	width: 400px;
+	height: 75px;
+	color: #161616;
+	font-family: "PT Serif";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: -0.4px;
+}
+#FirstMan2{
+	position: relative;
+	top: 23px;
+}
+#FirstMan img{
+	position: relative;
+	right: -50px;
+	top: -70px;
+	float: right;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 3px 3px 5px #ded9cd;
+    -moz-box-shadow: 0 3px 3px 5px #ded9cd;
+    box-shadow: 0 3px 4px 3px #ded9cd;
+}
+#SecondGirl{
+	position: relative;
+	left: 81px;
+	top:200px;
+	width: 439px;
+	height: 142px;
+	background-color: #efefef;
+	border-radius: 5px;
+	padding-left: 26px;
+}
+#SecondGirl1{
+	position: relative;
+	top: 26px;
+	width: 336px;
+	height: 47px;
+	color: #c62314;
+	font-family: "PT Serif";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: -0.4px;
+}
+#SecondGirl2{
+	position: relative;
+	top: 49px;
+}
+#SecondGirl img{
+	position: relative;
+	right: -50px;
+	top: -40px;
+	float: right;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 3px 3px 5px #ded9cd;
+    -moz-box-shadow: 0 3px 3px 5px #ded9cd;
+    box-shadow: 0 3px 4px 3px #ded9cd;
+}
+#Gallery{
+	position: relative;
+	float: left;
+	height: 315px;
+	width: 630px;
+	left: 708px;
+	top: -143px;
+}
+#Gallery img{
+	padding-bottom: 28px;
+	padding-right: 41px;
+}
+#Gallery a{
+	position: relative;
+	text-align: center;
+	left: 63px;
+	color: #130e27;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: -0.4px;
+}
+/*TESTIMONIAL END*/
+/*BODY END*/
+/*FOOTER START*/
+footer{
+	width: 1200px;
+	height: 183px;
+	background-color: #130e27;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: 
+}
+#AllRights{
+	position: relative;
+	float: left;
+	left: 86px;
+	top: 45px;
+	color: #ffffff;
+	font-family: "PT Serif";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: -0.4px;
+}
+#Sign{
+	width: 212px;
+	height: 69px;
+	text-align: center;
+	position: relative;
+	float:left;
+	left: 280px;
+	top: 58px;
+	color: #c62314;
+	font-family: "Quite_Chocolatey";
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 23.6px;
+	letter-spacing: -1.2px;
+	svg { -webkit-background-clip: text; }
+}
+/*FOOTER END*/
